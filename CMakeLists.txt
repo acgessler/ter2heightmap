@@ -16,5 +16,5 @@ configure_file (
   )
 
 
-add_executable(ter2heightmap src/main.cpp)
+add_executable(ter2heightmap src/main.cpp src/writer.cpp src/loader.cpp)
 
